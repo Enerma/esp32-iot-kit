@@ -15,7 +15,7 @@ char auth[] = "tkP9vOGi3nM6YSwUcKXL36BKFTicOfYz";
 
 char ssid[] = "Wokwi-GUEST";
 char pass[] = "";
-const int potPin = 34;
+const int potPin = 4;
 
 void pembacaan(){
   int adc=analogRead(potPin);
